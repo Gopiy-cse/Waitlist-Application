@@ -34,32 +34,28 @@ You'll need the following software installed on your machine:
 
 2. Change into the project directory:
 
-```bash
   cd waitlist-application
 
 3. Install dependencies for the client (front-end):
 
-```bash
   cd client
   npm install
 
 4. Install dependencies for the server (back-end):
 
-```bash
   cd server
   npm install
 
 Client (Front-end)
 The front-end of the Waitlist Application is built with React. To run the client, use the following commands:
 
-    Change to the client directory:
+  Change to the client directory:
 
-  ```bash
+
   cd client
 
   Start the development server:
 
-```bash
   npm start
 
 
@@ -68,14 +64,12 @@ The front-end of the Waitlist Application is built with React. To run the client
 Server (Back-end)
 The back-end of the Waitlist Application is built with Node.js and Express. To run the server, use the following commands:
 
-    Change to the server directory:
+  Change to the server directory:
 
-```bash
   cd server
   Start the server:
 
-```bash
-npm start
+  npm start
 
 
 The server should be accessible at http://localhost:8001.
