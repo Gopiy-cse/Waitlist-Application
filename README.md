@@ -8,12 +8,10 @@ If the Referal link is used by another user then Referal Customer's Position wil
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Techologies](#techonologies)
+  - [Technologies](#techonologies)
   - [Packages](#packages)
-  - [Installation](#installation)
-- [
-- [Client (Front-end)](#client-front-end)
-- [Server (Back-end)](#server-back-end)
+- [Login](#login)
+- [Deployment](#deployment)
 - [Usage](#usage)
 
 ## Getting Started
@@ -52,11 +50,14 @@ You'll need the following software installed on your machine:
 ```bash
 git clone https://github.com/Gopiy-cse/waitlist-application.git
 ```
+```
+cd waitlist-application
+```
 
 #### 2. Go to the project directory and install dependencies for both the client and server
 For Frontend:
 ```bash
-  cd sample
+  cd frontend
   npm install
 ```
 For Backend:
@@ -111,3 +112,5 @@ Usage
 Visit the client application at http://localhost:3000.
 Sign up for the waitlist by providing your email.
 Monitor your position on the waitlist.
+
+<img src="/images/Screenshot (35).png" >
