@@ -71,7 +71,7 @@ function Signup() {
         }
 
         // Send a POST request to the server to retrieve the user's position
-        Axios.post('http://localhost:8001/find',{ref_id})
+        Axios.post('http://localhost:8001/find')
             .then((res) => {
                 const pos = res.data.position;
                 if(pos)
@@ -87,9 +87,6 @@ function Signup() {
                     }
                 })
                 .catch(err => console.log(err));
-                }
-                else{
-                    notify("Referal Link Expired");   //If the Referal User is not Available in the Database then it shows Toast.
                 }
                 
             })
