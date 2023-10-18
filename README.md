@@ -23,30 +23,50 @@ You'll need the following software installed on your machine:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/) (usually comes with Node.js)
+## Technologies
+- Reactjs
+- Nodejs
+- Expressjs
+- MongoDB Atlas
 
-### Installation
+## Login
 
-1. Clone the repository to your local machine:
+- Admin 
+`username:
+- User can Create Account  
 
-   ```bash
-   git clone https://github.com/Gopiy-cse/waitlist-application.git
 
+## Deployment
 
-2. Change into the project directory:
+#### 1. Clone the Reposotiry
+```bash
+git clone https://github.com/Gopiy-cse/waitlist-application.git
+```
 
-  cd waitlist-application
-
-3. Install dependencies for the client (front-end):
-
+#### 2. Go to the project directory and install dependencies for both the client and server
+```bash
   cd client
   npm install
-
-4. Install dependencies for the server (back-end):
-
-  cd server
+```
+```bash
+ cd server
   npm install
+```
 
-Client (Front-end)
+#### 3. Install the Dependencies of Server
+
+Dependencies info :
+ - Express : Create an API very easily for the server
+ - Mongoose : Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports Node.js.
+ - Cors : CORS is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options.
+ - Nodemon : Nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+ - Bcrypt : A library to help you hash passwords.
+ - SendinBlue : SendinBlue's API exposes the entire SendinBlue features via a standardized programmatic interface
+
+```bash
+npm i express cors mongoose nodemon bcrypt sib-api-v3-sdk
+```
+#### 4. Start the both, Server and Waitlist-Application
 The front-end of the Waitlist Application is built with React. To run the client, use the following commands:
 
   Change to the client directory:
@@ -70,7 +90,6 @@ The back-end of the Waitlist Application is built with Node.js and Express. To r
   Start the server:
 
   npm start
-
 
 The server should be accessible at http://localhost:8001.
 
