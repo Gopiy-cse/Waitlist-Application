@@ -114,3 +114,7 @@ Sign up for the waitlist by providing your email.
 Monitor your position on the waitlist.
 
 <img src="/images/Screenshot (35).png" >
+<img src="/images/Screenshot (36).png" >
+<img src="/images/Screenshot (37).png" >
+<img src="/images/Screenshot (38).png" >
+<img src="/images/Screenshot (39).png" >
