@@ -99,9 +99,6 @@ app.post('/del', (req, res) => {
 
 // Handle POST request to find the user's position in the referral program
 app.post('/find', (req, res) => {
-    form.findOne({ referal_id: req.body.ref_id })       //This finds Whether the Referal user is Available or not.
-        .then((reslt) => {
-            if (reslt != null) {                        //If the User is Present then Follows the Remaining
                 form.count().then((coun) => {
                     if (coun == 0) {
                         res.send({ position: 98 });
@@ -111,10 +108,6 @@ app.post('/find', (req, res) => {
                                 res.send({ position: result[0].number });
                             });
                     }
-                });
-            } else {
-                res.send({ refer: "Expired" });     //Else Send the JSON as Expired which infers Link Expired and Referal User is not Available
-            }
         });
 });
 
