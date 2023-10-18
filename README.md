@@ -8,7 +8,7 @@ If the Referal link is used by another user then Referal Customer's Position wil
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Technologies](#techonologies)
+  - [Technologies](#technologies)
   - [Packages](#packages)
 - [Login](#login)
 - [Deployment](#deployment)
@@ -108,7 +108,7 @@ The back-end of the Waitlist Application is built with Node.js and Express. To r
 
 The server should be accessible at http://localhost:8001.
 
-Usage
+## Usage
 Visit the client application at http://localhost:3000.
 Sign up for the waitlist by providing your email.
 Monitor your position on the waitlist.
@@ -118,3 +118,5 @@ Monitor your position on the waitlist.
 <img src="/images/Screenshot (37).png" >
 <img src="/images/Screenshot (38).png" >
 <img src="/images/Screenshot (39).png" >
+<<img src="/images/db1.png" >
+<img src="/images/db2.png" >
