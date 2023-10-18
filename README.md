@@ -85,7 +85,7 @@ The front-end of the Waitlist Application is built with React. To run the client
 
   Change to the client directory:
 
-  ```cd client```
+  ```cd frontend```
 
   Start the development server:
 
@@ -100,11 +100,11 @@ The back-end of the Waitlist Application is built with Node.js and Express. To r
 
   Change to the server directory:
 
-  ```cd server```
+  ```cd backend```
   
   Start the server:
 
-  ```npm start```
+  ```npx nodemon index.js```
 
 The server should be accessible at http://localhost:8001.
 
