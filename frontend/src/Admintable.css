@@ -1,0 +1,12 @@
+.Admintable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
