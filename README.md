@@ -107,11 +107,3 @@ The server should be accessible at http://localhost:8001.
 Visit the client application at http://localhost:3000.
 Sign up for the waitlist by providing your email.
 Monitor your position on the waitlist.
-
-<img src="/images/Screenshot (35).png" >
-<img src="/images/Screenshot (36).png" >
-<img src="/images/Screenshot (37).png" >
-<img src="/images/Screenshot (38).png" >
-<img src="/images/Screenshot (39).png" >
-<<img src="/images/db1.png" >
-<img src="/images/db2.png" >
