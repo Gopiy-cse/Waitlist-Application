@@ -37,11 +37,6 @@ You'll need the following software installed on your machine:
 - React-countup
 - Blueimp-md5
 
-## Login
-
-- Admin 
-`username:gopiykj14@gmail.com`
-`password:gopiycse`  
 
 
 ## Deployment
